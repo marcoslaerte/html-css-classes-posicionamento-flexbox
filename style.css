@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100vh; /*Vai ocupar 100% da altura da tela (vh: view height)*/
+    box-sizing: border-box; /*os elementos filhos da tag body vão ficar contidos dentro da largura máxima dele*/
     background-color: #000000;
     color: #F6F6F6
 }
