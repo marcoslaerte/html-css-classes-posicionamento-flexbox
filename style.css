@@ -15,6 +15,8 @@ body {
 }
 
 .apresentacao {
+    margin: 10%;
     display: flex; /*colocar essa propriedade display no elemento pai, que é o container no qual os elementos filhos serão posicionados*/
-    align-items: center; /*todos os elementos dentro de apresentacao serão alinhados no centro*/
+    align-items: center; /*todos os elementos dentro de apresentacao serão alinhados no centro (centralizado na metade da altura do maior elemento)*/
+    justify-content: space-between;
 }
