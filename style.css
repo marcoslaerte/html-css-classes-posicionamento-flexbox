@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex; /*colocar essa propriedade display no elemento pai, que é o container no qual os elementos filhos serão posicionados*/
     align-items: center; /*todos os elementos dentro de apresentacao serão alinhados no centro (centralizado na metade da altura do maior elemento)*/
     justify-content: space-between;
@@ -25,6 +25,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column; /*dispõe os elementos dentro do container apresentacao__conteudo em uma coluna*/
+    gap: 40px; /*espaço entre os elementos dentro do container apresentacao__conteudo*/
 }
 
 .apresentacao__conteudo__titulo {
