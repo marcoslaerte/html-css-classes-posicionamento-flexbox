@@ -48,6 +48,7 @@ body {
     display: flex; /*colocar essa propriedade display no elemento pai, que é o container no qual os elementos filhos serão posicionados*/
     align-items: center; /*todos os elementos dentro de apresentacao serão alinhados no centro (centralizado na metade da altura do maior elemento)*/
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -118,4 +119,10 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
