@@ -44,7 +44,7 @@ body {
 }
 
 .apresentacao {
-    margin: 8% 15%;
+    padding: 8% 15%;
     display: flex; /*colocar essa propriedade display no elemento pai, que é o container no qual os elementos filhos serão posicionados*/
     align-items: center; /*todos os elementos dentro de apresentacao serão alinhados no centro (centralizado na metade da altura do maior elemento)*/
     justify-content: space-between;
@@ -122,7 +122,20 @@ body {
 }
 
 @media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
     }
 }
